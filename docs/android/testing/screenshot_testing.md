@@ -30,7 +30,7 @@ We use the [Compose Preview Screenshot Testing](https://developer.android.com/st
 
 ### Reference screenshots
 
-The reference screenshots are stored under `src/debug/screenshotTest/reference` in each Gradle module. To update the reference screenshots, run the following command:
+The reference screenshots are stored under `src/screenshotTestDebug/reference` in each Gradle module. To update the reference screenshots, run the following command:
 
 ```bash
 ./gradlew updateDebugScreenshotTest
